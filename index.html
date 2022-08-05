@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Movies & Games Vault</title>
+    <!-- Bulma CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Personal CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+    <section class="hero is-info is-mobile">
+      <div class="hero-body has-text-centered">
+        <h1 class="title">Movie/Game Finder</h1>
+        <p class="subtitle">Search a movie to find a game for you</p>
+      </div>
+    </section>
+
+    <section class="section is-mobile">
+      <form id="form" class="field has-addons">
+        <button class="button is-medium is-fullwidth">Click to begin and choose a movie</button>
+      </form>
+
+      <div class="tile is-mobile">
+        <div class="container tile is-parent titles">
+          <h2 class="has-text-centered">Movie Choice</h2>
+          <h2 class="has-text-centered">Game Recommendation</h2>
+          <!-- section for displaying movie -->
+          <section class="tile is-child box has-background-grey-light columns">
+            <div class="column">
+              <div class="is-4">
+                <p id="mTitle"></p>
+                <p id="mRelease"></p>
+                <p id="mDirector"></p>
+                <p id="mActors"></p>
+                <p id="mIMDbRating"></p>
+                <p id="mRTRating"></p>
+                <p id="mMCRating"></p>
+                <p id="mPlot"></p>
+              </div>
+            </div>
+            <img class="movie picture is-2by3 column" id="mPoster" src="">
+          </section>
+          <!-- section for displaying game -->
+          <section class="tile is-child box has-background-grey-light columns titles">
+            <div class="column">
+              <div class="is-4">
+                <p id="gTitle"></p>
+                <p id="gRelease"></p>
+                <p id="gESRB"></p>
+                <p id="gMCRating"></p>
+                <p id="gGenres"></p>
+              </div>
+            </div>
+            <img class="movie picture is-4 column" id="gPoster" src="">
+          </section>
+        </div>
+      </div>
+
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
