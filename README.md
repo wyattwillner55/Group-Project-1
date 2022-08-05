@@ -1,7 +1,7 @@
 # movies-games-vault
 
 ## Screen Shot
-![ScreenShot](.assets/images/Screenshot.jpg)
+![ScreenShot](./assets/images/Screenshot.jpg)
 
 ## Description
 
